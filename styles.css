@@ -1,0 +1,59 @@
+html, body {
+	height: 100%;
+	font-family: 'Raleway', sans-serif;
+	background-color: #fff;
+	color: #222;
+}
+
+a:link {
+	color: #909090;
+	text-decoration: none;
+}
+a:visited {
+	color: #909090;
+}
+a:hover {
+	color: #000;
+}
+a:active {
+	color: #000;
+}
+
+.main {
+	min-height: 100%;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	display: -moz-box;
+	-moz-box-orient: vertical;
+	-moz-box-pack: center;
+	-moz-box-align: center;
+	display: box;
+	box-orient: vertical;
+	box-pack: center;
+	box-align: center;
+}
+
+.main img {
+	width: 450px;
+	height: 150px;
+}
+
+.main p {
+	padding-top: 20px;
+}
+
+.footer {
+	width: 100%;
+	height: 20px;
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	padding-top: 0;
+	background-color: #fff;
+}
+
+.footer small {
+	color: #222;
+}
